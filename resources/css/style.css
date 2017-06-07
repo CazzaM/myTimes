@@ -30,8 +30,10 @@
 }
 
 .headingright {
-  display:inline-flex;
+
+/* This leaves a 50px gap after the list items*/
   margin-right: 50px;
+/* This centres the list items with the tagline (in the middle)*/
   align-items: center;
 
 }
