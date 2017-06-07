@@ -80,6 +80,7 @@
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   flex-direction: column;
+  display:inline-flex;
 }
 
 .column .medium {
@@ -88,6 +89,7 @@
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   flex-direction: column;
+  display:inline-flex;
 }
 
 .column .small {
@@ -95,5 +97,6 @@
   width: 240px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-  flex-direction: column;  
+  flex-direction: column;
+  display:inline-flex;  
 }
