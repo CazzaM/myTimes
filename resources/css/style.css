@@ -1,3 +1,9 @@
+/* Change the default margins for the webpage */
+html{
+  margin: 0;
+  padding: 0;
+}
+
 /* This is the Header section */
 .header {
   font-family: Verdana;
@@ -8,7 +14,9 @@
 /* This puts space between the (logo and tagline) which is one flex container and the list items on the right which is another flex container */
   justify-content: space-between;
   flex-wrap:nowrap;
-  /* Creates a margin for the header */
+  /* Creates a top margin for the header */
+  margin-top: 3px;
+  /* Creates padding for the header */
   padding: 3px 0;
   /* Creates a border below the header */
   border-bottom: 1px solid black;
