@@ -6,7 +6,6 @@
 /* Creates a flex container */
   display: flex;
 
-  width: 100%;
   justify-content: space-between;
   flex-wrap:nowrap;
 }
