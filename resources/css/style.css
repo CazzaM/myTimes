@@ -29,7 +29,8 @@
 }
 
 .headingright {
-
+  display:inline-flex;
+  justify-content: flex-start;
   margin-right: 50px;
   align-items: center;
 
