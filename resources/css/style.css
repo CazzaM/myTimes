@@ -17,7 +17,7 @@
 }
 
 .headingleft {
-  display: inline-block;
+  display:inline-flex;
   justify-content: flex-start;
   margin-left: 50px;
   align-items: center;
