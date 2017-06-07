@@ -9,26 +9,33 @@
   justify-content: space-between;
 }
 
+.header img{
+/* This creates a 20px gap between the logo and the tagline */  
+  padding-right: 20px;
+}
+
 .header li{
+/* This removes the bullet point from the list items */
   list-style: none;
   display : inline-flex;
+/* This creates an underline under each list item because these are not hrefs, they are spans */
   text-decoration: underline;
-
-  padding-right: 10px;
+/* This creates a 20px gap between each list item */
+  padding-right: 20px;
 }
 
 .headingleft {
-
+/* This puts the tagline next to the logo (makes the paragraph an inline block) */
+  display:inline-flex;
 /* This leaves a 50px gap before the logo*/
   margin-left: 50px;
 /* These two lines centres the tagline so that it appears in the middle of the logo */
   justify-content: flex-start;
   align-items: center;
-  padding-right: 10px;
 }
 
 .logo p{
-/* This makes the tagline the same colour as the logo's "my" portion*/
+/* This makes the tagline the same colour as the logo's "my" portion */
   color: MediumAquamarine;
 }
 
