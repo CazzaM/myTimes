@@ -5,9 +5,10 @@
   font-weight: bold;
 /* Creates a flex container */
   display: flex;
-/* This puts space between the (logo and tagline) and the list items on the right */  
+/* This puts space between the (logo and tagline) which is one flex container and the list items on the right which is another flex container */
   justify-content: space-between;
   flex-wrap:nowrap;
+  border-bottom: 1px solid black;
 }
 
 .header img{
