@@ -4,16 +4,18 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header li{
   list-style: none;
+  display : inline-block;
 }
 
 .headingleft {
   display:inline-flex;
   justify-content: flex-start;
+  margin-left: 50px;
 }
 
 .logo p{
@@ -23,8 +25,9 @@
 .headingright {
   display:inline-flex;
   justify-content: flex-end;
+  margin-right: 50px;
 }
 
-.linkitem li span {
-  text-decoration:underline;
+.header span {
+  text-decoration: underline;
 }
