@@ -5,7 +5,8 @@
   font-weight: bold;
 /* Creates a flex container */
   display: flex;
-
+/* This puts space between the (logo and tagline) and the list items on the right */  
+  justify-content: space-between;
   flex-wrap:nowrap;
 }
 
