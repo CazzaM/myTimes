@@ -48,6 +48,8 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap:nowrap;
+/* Create temporary borders to make life easier*/
+  border: 1px solid black;
 }
 
 .logo p{
@@ -62,4 +64,36 @@
 /* This leaves a 30px gap after the list items*/
   margin-right: 30px;
   flex-wrap:nowrap;
+}
+
+.column {
+  /* Create temporary borders to make life easier*/
+  border: 1px solid black;
+  margin: 3px 5px 0px 5px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.column .large {
+  /* Create the width of the flex container*/
+  width: 630px;
+  /* Create temporary borders to make life easier*/
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.column .medium {
+  /* Create the width of the flex container*/
+  width: 300px;
+  /* Create temporary borders to make life easier*/
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.column .small {
+  /* Create the width of the flex container*/
+  width: 240px;
+  /* Create temporary borders to make life easier*/
+  border: 1px solid black;
+  flex-direction: column;  
 }
