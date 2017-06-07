@@ -5,7 +5,7 @@
   font-weight: bold;
   display: flex;
   height: 65px;
-  width: auto;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -14,6 +14,7 @@
   display : inline-block;
   text-decoration: underline;
   align-items: center;
+  padding-right: 10px;
 }
 
 .headingleft {
@@ -21,7 +22,7 @@
   justify-content: flex-start;
   margin-left: 50px;
   align-items: center;
-
+  padding-right: 10px;
 }
 
 .logo p{
