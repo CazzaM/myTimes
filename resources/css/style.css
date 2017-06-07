@@ -10,12 +10,15 @@
 .header li{
   list-style: none;
   display : inline-block;
+  text-decoration: underline;
 }
 
 .headingleft {
   display:inline-flex;
   justify-content: flex-start;
   margin-left: 50px;
+  align-items: center;
+  width: 600px;
 }
 
 .logo p{
@@ -23,11 +26,12 @@
 }
 
 .headingright {
-  display:inline-flex;
   justify-content: flex-end;
   margin-right: 50px;
+  align-items: center;
+  width: 800px;  
 }
 
 .header span {
-  text-decoration: underline;
+
 }
