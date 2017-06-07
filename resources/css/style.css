@@ -19,9 +19,9 @@
 
 .headingleft {
   display:inline-flex;
+
+/* These two lines centres the tagline so that it appears in the middle of the logo */
   justify-content: flex-start;
-  margin-left: 50px;
-/* This centres the tagline so that it appears in the middle of the logo */
   align-items: center;
   padding-right: 10px;
 }
