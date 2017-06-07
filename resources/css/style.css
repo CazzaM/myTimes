@@ -15,9 +15,9 @@
   justify-content: space-between;
   flex-wrap:nowrap;
   /* Creates a margin on the top and bottom of the header */
-  margin: 3px 0px;
-  /* Creates padding for the header */
-  padding: 3px 0;
+  margin-top: 5px;
+  /* Creates a top margin for the header */
+  padding-top: 5px;
   /* Creates a border below the header */
   border-bottom: 1px solid black;
 }
