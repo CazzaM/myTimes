@@ -19,9 +19,8 @@
 
 .headingleft {
   display:inline-flex;
-
   margin-left: 50px;
-  align-items: center;
+
   padding-right: 10px;
 }
 
