@@ -13,11 +13,11 @@
   list-style: none;
   display : inline-block;
   text-decoration: underline;
-  align-items: center;  
+  align-items: center;
 }
 
 .headingleft {
-  display:inline-flex;
+  display: inline-block;
   justify-content: flex-start;
   margin-left: 50px;
   align-items: center;
