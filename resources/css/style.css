@@ -1,0 +1,24 @@
+/* This is the Header section */
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display:inline-flex;
+}
+
+.headingleft {
+  justify-content: flex-start;
+}
+
+.logo p{
+  color: MediumAquamarine;
+}
+
+.headingright {
+  justify-content: flex-end;
+}
+
+.linkitem li span {
+    text-decoration:underline;
+}
