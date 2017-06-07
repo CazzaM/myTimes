@@ -3,7 +3,12 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
 
+.header li{
+  list-style: none;
 }
 
 .headingleft {
