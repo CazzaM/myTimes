@@ -1,13 +1,13 @@
 /* This is the Header section */
 .header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display:inline-flex;
+
 }
 
 .headingleft {
+  display:inline-flex;
   justify-content: flex-start;
 }
 
@@ -16,9 +16,10 @@
 }
 
 .headingright {
+  display:inline-flex;  
   justify-content: flex-end;
 }
 
 .linkitem li span {
-    text-decoration:underline;
+  text-decoration:underline;
 }
