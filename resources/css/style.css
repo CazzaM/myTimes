@@ -11,14 +11,15 @@
 }
 
 .header img{
-/* This creates a 20px gap between the logo and the tagline */
-  padding-right: 20px;
+/* This creates a 15px gap between the logo and the tagline */
+  padding-right: 15px;
 }
 
 .header li{
 /* This removes the bullet point from the list items */
   list-style: none;
-
+/* This puts each list item next to each other on the same line (makes the span an inline block)*/
+  display : inline-flex;
 /* This creates an underline under each list item because these are not hrefs, they are spans */
   text-decoration: underline;
 /* This creates a 15px gap between each list item */
