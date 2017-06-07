@@ -7,10 +7,11 @@
   height: 65px;
   width: 100%;
   justify-content: space-between;
+  flex-wrap:nowrap;
 }
 
 .header img{
-/* This creates a 20px gap between the logo and the tagline */  
+/* This creates a 20px gap between the logo and the tagline */
   padding-right: 20px;
 }
 
@@ -20,15 +21,15 @@
   display : inline-flex;
 /* This creates an underline under each list item because these are not hrefs, they are spans */
   text-decoration: underline;
-/* This creates a 20px gap between each list item */
-  padding-right: 20px;
+/* This creates a 15px gap between each list item */
+  padding-right: 15px;
 }
 
 .headingleft {
 /* This puts the tagline next to the logo (makes the paragraph an inline block) */
   display:inline-flex;
-/* This leaves a 50px gap before the logo*/
-  margin-left: 50px;
+/* This leaves a 30px gap before the logo*/
+  margin-left: 30px;
 /* These two lines centres the tagline so that it appears in the middle of the logo */
   justify-content: flex-start;
   align-items: center;
@@ -43,6 +44,6 @@
 /* These two lines centres the list items with the tagline (in the middle)*/
   display:inline-flex;
   align-items: center;
-/* This leaves a 50px gap after the list items*/
-  margin-right: 50px;
+/* This leaves a 30px gap after the list items*/
+  margin-right: 30px;
 }
