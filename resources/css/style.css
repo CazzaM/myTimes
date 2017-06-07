@@ -11,12 +11,12 @@
   justify-content: flex-start;
 }
 
-.logo p{
+.header .headingleft .logo p{
   color: MediumAquamarine;
 }
 
 .headingright {
-  display:inline-flex;  
+  display:inline-flex;
   justify-content: flex-end;
 }
 
