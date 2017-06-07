@@ -18,7 +18,7 @@
 .header li{
 /* This removes the bullet point from the list items */
   list-style: none;
-  display : inline-flex;
+
 /* This creates an underline under each list item because these are not hrefs, they are spans */
   text-decoration: underline;
 /* This creates a 15px gap between each list item */
@@ -48,5 +48,5 @@
   align-items: center;
 /* This leaves a 30px gap after the list items*/
   margin-right: 30px;
-  flex-wrap:nowrap;  
+  flex-wrap:nowrap;
 }
