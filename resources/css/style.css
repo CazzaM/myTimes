@@ -19,21 +19,21 @@
 
 .headingleft {
   display:inline-flex;
-  justify-content: flex-start;
+
   margin-left: 50px;
   align-items: center;
   padding-right: 10px;
 }
 
 .logo p{
+/* This makes the tagline the same colour as the logo's "my" portion*/
   color: MediumAquamarine;
 }
 
 .headingright {
-
+/* These two lines centres the list items with the tagline (in the middle)*/
+  display:inline-flex;
+  align-items: center;
 /* This leaves a 50px gap after the list items*/
   margin-right: 50px;
-/* This centres the list items with the tagline (in the middle)*/
-  align-items: center;
-
 }
