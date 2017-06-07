@@ -7,6 +7,7 @@
   height: 65px;
   width: 100%;
   justify-content: space-between;
+  flex-wrap:nowrap;
 }
 
 .header img{
@@ -22,7 +23,7 @@
   text-decoration: underline;
 /* This creates a 15px gap between each list item */
   padding-right: 15px;
-  flex-wrap:nowrap;
+
 }
 
 .headingleft {
@@ -33,7 +34,7 @@
 /* These two lines centres the tagline so that it appears in the middle of the logo */
   justify-content: flex-start;
   align-items: center;
-  flex-wrap:nowrap;  
+  flex-wrap:nowrap;
 }
 
 .logo p{
@@ -47,4 +48,5 @@
   align-items: center;
 /* This leaves a 30px gap after the list items*/
   margin-right: 30px;
+  flex-wrap:nowrap;  
 }
