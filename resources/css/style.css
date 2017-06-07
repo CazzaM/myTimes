@@ -5,8 +5,8 @@
   font-weight: bold;
   display: flex;
   height: 65px;
-  width: 100%;
-
+  width: auto;
+  justify-content: space-between;
 }
 
 .header li{
