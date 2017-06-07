@@ -1,5 +1,5 @@
 /* Change the default margins for the webpage */
-html{
+* {
   margin: 0;
   padding: 0;
 }
