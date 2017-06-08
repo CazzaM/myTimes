@@ -85,7 +85,7 @@
   width: 630px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-
+  justify-content: space-between;
 
 }
 
@@ -94,7 +94,7 @@
   width: 300px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-
+  justify-content: space-between;
 
 }
 
@@ -103,6 +103,6 @@
   width: 240px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-
+  justify-content: space-between;
 
 }
