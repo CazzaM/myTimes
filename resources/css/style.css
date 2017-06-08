@@ -15,9 +15,10 @@
   justify-content: space-between;
   flex-wrap:nowrap;
   /* Creates a margin on the top and bottom of the header */
-  margin: 5px 0px 5px 0px;
+  margin: 10px 0px 0px 0px;
   /* Creates a border below the header */
   border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 .header img{
