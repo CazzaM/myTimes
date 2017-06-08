@@ -66,38 +66,42 @@
   flex-wrap:nowrap;
 }
 
+.main{
+  display: flex;
+}
+
 .column {
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   margin: 3px 5px 0px 5px;
   padding-top: 20px;
-  display: flex;
-  justify-content: space-between;
+  display:inline-flex;
+  justify-content: space-around;
 }
 
-.column .large {
+.large {
   /* Create the width of the flex container*/
   width: 630px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   flex-direction: column;
-  display:inline-flex;
+
 }
 
-.column .medium {
+.medium {
   /* Create the width of the flex container*/
   width: 300px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   flex-direction: column;
-  display:inline-flex;
+
 }
 
-.column .small {
+.small {
   /* Create the width of the flex container*/
   width: 240px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   flex-direction: column;
-  display:inline-flex;
+
 }
