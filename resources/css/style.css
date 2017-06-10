@@ -68,7 +68,6 @@
 /* These two lines centres the list items with the tagline (in the middle)*/
   display:inline-flex;
   align-items: center;
-  justify-content: flex-end;
 /* This leaves a 30px gap after the list items */
   padding-right: 30px;
   min-width: 200px;
