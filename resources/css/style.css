@@ -75,12 +75,13 @@
 }
 
 .spacer{
+  padding-top: 50px;
   max-width: 90%;
-  margin: atuo;
+  margin: auto;
 }
 
 .main{
-  padding-top: 50px;
+
   border: 1px solid MediumAquamarine;
   display: flex;
   justify-content:space-around;
