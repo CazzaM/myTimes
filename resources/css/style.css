@@ -31,6 +31,10 @@
   padding-right: 15px;
 }
 
+.header ul{
+  text-align: right;
+}
+
 .header li{
 /* This removes the bullet point from the list items */
   list-style: none;
