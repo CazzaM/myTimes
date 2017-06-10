@@ -16,8 +16,8 @@
   font-weight: bold;
 /* Creates a flex container */
   display: flex;
-/* This puts space between the (logo and tagline) which is one flex container and the list items on the right which is another flex container */
-  justify-content: space-between;
+/* This puts space between the (logo and tagline) which is one flex container and the list items on the right which is another flex container
+  justify-content: space-between; */
   /* Creates a margin on top of the header */
   margin-top: 10px;
   padding-bottom: 10px;
