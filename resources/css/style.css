@@ -56,7 +56,7 @@
 /* Create temporary borders to make life easier*/
   border: 1px solid black;
   margin-right: 10px;
-  width: 80%;
+  width: 90%;
 }
 
 .logo p{
@@ -72,7 +72,7 @@
 /* This leaves a 30px gap after the list items*/
   padding-right: 30px;
   justify-content: flex-end;
-  width: 20%;
+  width: 10%;
 }
 
 .main{
