@@ -71,7 +71,7 @@
 /* This leaves a 30px gap after the list items
   padding-right: 30px;*/
   justify-content: flex-start;
-  min-width: 20%;
+  min-width: 60px;
 }
 
 .spacer{
