@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.container{
+  margin: 0 auto;
+}
+
 /* This is the Header section */
 .header {
   font-family: Verdana;
@@ -13,12 +17,11 @@
   display: flex;
 /* This puts space between the (logo and tagline) which is one flex container and the list items on the right which is another flex container */
   justify-content: space-between;
-  flex-wrap:nowrap;
   /* Creates a margin on the top and bottom of the header */
   margin: 10px 0px 0px 0px;
   /* Creates a border below the header */
   border-bottom: 1px solid black;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .header img{
@@ -58,12 +61,12 @@
 }
 
 .headingright {
+  margin: 0;
 /* These two lines centres the list items with the tagline (in the middle)*/
   display:inline-flex;
   align-items: center;
 /* This leaves a 30px gap after the list items*/
-  margin-right: 30px;
-  flex-wrap:nowrap;
+  padding-right: 30px;
 }
 
 .main{
