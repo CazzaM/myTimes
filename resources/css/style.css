@@ -55,7 +55,7 @@
 /* Create temporary borders to make life easier*/
   border: 1px solid black;
   margin-right: 10px;
-  min-width: 60%;
+  min-width: 300px;
 }
 
 .logo p{
@@ -69,8 +69,8 @@
   display:inline-flex;
   align-items: center;
 /* This leaves a 30px gap after the list items
-  padding-right: 30px;*/
-  justify-content: flex-start;
+  padding-right: 30px;
+  justify-content: flex-start; */
   min-width: 200px;
 }
 
