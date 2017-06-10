@@ -73,7 +73,7 @@
 .main{
   padding-top: 50px;
   max-width: 90%;
-  border: 1px solid pink;
+  border: 1px solid black;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -84,7 +84,7 @@
   justify-content: space-between;
   flex-direction: column;
   /* Create temporary borders to make life easier*/
-  border: 1px solid green;
+  border: 1px solid black;
   margin: 3px 5px 0px 5px;
   padding-top: 20px;
 }
@@ -93,7 +93,7 @@
   /* Create the width of the flex container*/
   width: 630px;
   /* Create temporary borders to make life easier*/
-  border: 1px solid yellow;
+  border: 1px solid black;
 
 }
 
@@ -101,7 +101,7 @@
   /* Create the width of the flex container*/
   width: 300px;
   /* Create temporary borders to make life easier*/
-  border: 1px solid red;
+  border: 1px solid black;
 
 }
 
@@ -109,7 +109,7 @@
   /* Create the width of the flex container*/
   width: 240px;
   /* Create temporary borders to make life easier*/
-  border: 1px solid orange;
+  border: 1px solid black;
 
 }
 
