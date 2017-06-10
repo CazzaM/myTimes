@@ -67,8 +67,8 @@
   display:inline-flex;
   align-items: center;
 /* This leaves a 30px gap after the list items*/
-  padding-right: 30px;
-  width: 20%;  
+  padding: 0px 30px 0px 10px;
+  width: 20%;
 }
 
 .main{
