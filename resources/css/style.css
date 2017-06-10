@@ -72,54 +72,54 @@
 
 .main{
   padding-top: 50px;
-  display: flex;
-  justify-content: space-around;
   max-width: 90%;
-  flex-wrap: wrap;
   border: 1px solid black;
 }
 
 .column {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
   margin: 3px 5px 0px 5px;
   padding-top: 20px;
-  display:inline-flex;
-  justify-content: space-between;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
-.column .large {
+.large {
   /* Create the width of the flex container*/
   width: 630px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-
+  display:inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.column .medium {
+.medium {
   /* Create the width of the flex container*/
   width: 300px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-
-
+  display:inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.column .small {
+.small {
   /* Create the width of the flex container*/
   width: 240px;
   /* Create temporary borders to make life easier*/
   border: 1px solid black;
-
-
+  display:inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.col p{
+.column p{
   border: 1px solid black;
 }
 
-.col h2{
+.column h2{
   border: 1px solid black;
 }
