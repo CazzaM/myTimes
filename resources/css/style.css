@@ -52,7 +52,7 @@
   flex-wrap:nowrap;
 /* Create temporary borders to make life easier*/
   border: 1px solid black;
-  width: 80%;
+  width: 90%;
 }
 
 .logo p{
