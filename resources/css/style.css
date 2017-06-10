@@ -52,7 +52,6 @@
 /* These two lines centres the tagline so that it appears in the middle of the logo */
   justify-content: flex-start;
   align-items: center;
-  flex-wrap:nowrap;
 /* Create temporary borders to make life easier*/
   border: 1px solid black;
   margin-right: 10px;
