@@ -74,9 +74,13 @@
   width: auto;
 }
 
+.spacer{
+  max-width: 90%;
+  margin: atuo;
+}
+
 .main{
   padding-top: 50px;
-  max-width: 90%;
   border: 1px solid MediumAquamarine;
   display: flex;
   justify-content:space-around;
