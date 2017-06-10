@@ -71,7 +71,7 @@
 }
 
 .main{
-  pagging-top: 50px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-around;
   max-width: 90%;
