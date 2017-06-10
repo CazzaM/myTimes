@@ -17,11 +17,12 @@
   display: flex;
 /* This puts space between the (logo and tagline) which is one flex container and the list items on the right which is another flex container */
   justify-content: space-between;
-  /* Creates a margin on the top and bottom of the header */
-  margin: 10px 0px 10px 0px;
+  /* Creates a margin on top of the header */
+  margin-top: 10px;
+  padding-bottom: 10px;
   /* Creates a border below the header */
   border-bottom: 1px solid black;
-  /* padding-bottom: 10px; */
+
 }
 
 .header img{
