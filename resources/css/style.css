@@ -10,6 +10,7 @@
 
 /* This is the Header section */
 .header {
+  margin: 0;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -43,6 +44,7 @@
 }
 
 .headingleft {
+  margin: 0;
 /* This puts the tagline next to the logo (makes the paragraph an inline block) */
   display:inline-flex;
 /* This leaves a 30px gap before the logo*/
@@ -53,6 +55,7 @@
   flex-wrap:nowrap;
 /* Create temporary borders to make life easier*/
   border: 1px solid black;
+  margin-right: 10px;
   width: 80%;
 }
 
