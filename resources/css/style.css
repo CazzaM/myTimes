@@ -6,7 +6,7 @@
 
 .container{
   margin: 0 auto;
-  border: 1px solid aquamarine;  
+  border: 1px solid aquamarine;
 }
 
 /* This is the Header section */
@@ -80,7 +80,7 @@
   max-width: 90%;
   border: 1px solid black;
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   flex-wrap: wrap;
 }
 
