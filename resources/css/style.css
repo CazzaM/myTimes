@@ -71,7 +71,8 @@
   align-items: center;
 /* This leaves a 30px gap after the list items*/
   padding-right: 30px;
-  width: auto;
+  justify-content: flex-end;
+  width: 20%;
 }
 
 .main{
